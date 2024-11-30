@@ -1,0 +1,335 @@
+.body {
+  background-color: #bbbaba;
+}
+
+header {
+  margin-bottom: 91px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+}
+
+.nav__link {
+  font-family: "Sailec Medium";
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+.nav__link:hover {
+  color: rgb(242, 201, 20);
+  transition: 0.5s ease;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.nav__btn {
+  padding: 20px 36px;
+  border: none;
+  width: 142px;
+  height: 61px;
+  border-radius: 50px;
+  padding: 20px 36px;
+  background: #00f;
+  font-family: "Sailec Medium";
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+.nav__btn:hover {
+  background-color: rgb(255, 221, 0);
+  transition: 0.5s ease;
+  color: black;
+}
+/*hero*/
+.hero {
+  margin-bottom: 124px;
+}
+
+.hero__content {
+  display: flex;
+}
+
+.hero__content--left {
+  display: flex;
+  max-width: 456px;
+  flex-direction: column;
+  margin-left: 132px;
+}
+
+.hero__main__text {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 120%;
+  color: black;
+  margin-bottom: 18px;
+}
+
+.hero__main__patarath {
+  font-family: "Sailec Medium";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: black;
+  margin-bottom: 42px;
+}
+
+.hero__btn {
+  display: flex;
+  margin-bottom: 108px;
+  gap: 16px;
+}
+
+.hero__btn--left {
+  border-radius: 50px;
+
+  width: 209px;
+  height: 69px;
+  background: #00f;
+  font-family: "Sailec Medium";
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.hero__btn--left:hover {
+  background-color: rgb(255, 221, 0);
+  transition: 0.5s ease;
+  color: black;
+  border: white;
+}
+
+.hero__btn--right {
+  border: 1px solid #1b4fe4;
+  border-radius: 50px;
+  padding: 24px 48px;
+  width: 153px;
+  height: 69px;
+  font-family: "Sailec Medium";
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #1b4fe4;
+  cursor: pointer;
+}
+.hero__btn--right:hover {
+  background-color: rgb(255, 221, 0);
+  transition: 0.5s ease;
+  color: black;
+  border: white;
+}
+
+.hero__platform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*buttons*/
+
+.hero__buttons {
+  margin-right: 171px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.hero__buttons__hover:hover {
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+}
+
+.btn__1line {
+  display: flex;
+  align-items: center;
+  margin-left: 220px;
+  gap: 68px;
+}
+
+.btn__orange {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  margin-top: 40px;
+  background-color: orange;
+  background-image: url(./img/orange.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn__orange:hover {
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+  background-color: rgb(255, 191, 71);
+}
+
+.btn__black {
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  background-image: url(./img/Black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn__black:hover {
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+  background-color: rgb(53, 53, 53);
+}
+
+.btn__red {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  margin-top: 50px;
+  background-color: rgb(241, 0, 0);
+  background-image: url(./img/Red.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn__red:hover {
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+  background-color: rgb(200, 6, 6);
+}
+
+.btn__bluedark {
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  margin-left: 195px;
+  margin-right: 26px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(./img/Bluedark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn__bluedark:hover {
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.574);
+}
+
+.btn__white {
+  width: 177px;
+  height: 177px;
+  border-radius: 50%;
+  margin-right: 25px;
+  background-color: #cccccc;
+  cursor: pointer;
+  border: none;
+}
+
+.white__logo {
+  width: 177px;
+  height: 177px;
+}
+
+.btn__white:hover {
+  background-image: url(./img/logo.png);
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(249, 226, 74);
+}
+
+.btn__green {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  margin-top: 41px;
+  background-color: #53ae94;
+  background-image: url(./img/Green.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn__green:hover {
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+  background-color: #14795c;
+}
+
+.btn__3line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+
+.btn__blue {
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+  margin-left: 145px;
+  margin-top: 30px;
+  background-color: #1652f0;
+  background-image: url(./img/Blue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn__blue:hover {
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+  background-color: #042a8a;
+}
+
+.btn__orange-white {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 30px;
+  background-color: #ffffff;
+  background-image: url(./img/wite-orange.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn__orange-white:hover {
+  transform: rotate(40deg);
+  transition: transform 0.5s ease;
+  background-color: #e2e0e0;
+}
