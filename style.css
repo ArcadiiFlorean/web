@@ -678,11 +678,12 @@ tr:hover {
 
 /*guids*/
 
-.gudes {
+.guides {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: space-between;
 }
+
 .guids_title {
   font-family: "Sailec Medium";
   font-weight: 700;
@@ -727,12 +728,17 @@ tr:hover {
 
 .calculate {
   display: flex;
-
-  background-color: #ebe7e4;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .calculate__content {
   background-color: #ebe7e4;
+  padding: 0 430px;
+
+  border-radius: 10px;
+  margin-top: 64px;
 }
 .calculate__title {
   display: flex;
@@ -743,6 +749,7 @@ tr:hover {
   text-align: center;
   color: black;
   max-width: 410px;
+  margin-bottom: 16px;
 }
 
 .calculate__paragrath {
@@ -751,8 +758,15 @@ tr:hover {
   font-size: 18px;
   line-height: 156%;
   color: black;
+  margin-bottom: 24px;
 }
 
+.calculate__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 64px;
+}
 .calculate__btn {
   border-radius: 50px;
   padding: 24px 48px;
@@ -773,4 +787,53 @@ tr:hover {
   color: black;
   border: white;
   cursor: pointer;
+}
+/*experiment*/
+.experiment__div {
+  max-width: 364px;
+  height: 365px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experiment__h1 {
+  font-size: 1.5em;
+  color: #141414;
+  margin-bottom: 24px;
+}
+
+.experiment__ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experiment__li {
+  margin-bottom: 15px;
+}
+
+.experiment__btn {
+  width: 100%;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experiment__btn:hover {
+  background-color: #efeb04;
+  color: black;
+}
+
+.experiment__div:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: rgb(224, 224, 224);
 }

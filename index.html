@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./settings.css" />
     <link rel="stylesheet" href="./normalise.css" />
+    <script src="./script.js"></script>
   </head>
   <body class="body">
     <header class="header">
@@ -335,26 +336,106 @@
         </div>
 
         <div class="guides">
-          <h3 class="guids_title">Guides & FAQs</h3>
-          <p class="paragrath__text">
-            Let’s be honest: taxes for digital currencies can be complex and
-            confusing. Our resources will tell you everything you need to know
-            about the functionality of our platform and the crypto filing
-            process.
-          </p>
-          <button class="guides__btn">Learn More</button>
+          <div class="guides__content">
+            <h3 class="guids_title">Guides & FAQs</h3>
+            <p class="paragrath__text">
+              Let’s be honest: taxes for digital currencies can be complex and
+              confusing. Our resources will tell you everything you need to know
+              about the functionality of our platform and the crypto filing
+              process.
+            </p>
+            <button class="guides__btn">Learn More</button>
+          </div>
+          <div class="experiment__div">
+            <h1 class="experiment__h1">From Our Help Center</h1>
+            <ul class="experiment__ul">
+              <li class="experiment__li">
+                <button class="experiment__btn" onclick="toggleContent(this)">
+                  Cryptocurrency Tax Rates <span>+</span>
+                </button>
+                <div class="content" style="display: none">
+                  Information about cryptocurrency tax rates and regulations.
+                </div>
+              </li>
+              <li class="experiment__li">
+                <button class="experiment__btn" onclick="toggleContent(this)">
+                  How To File a Crypto FBAR <span>+</span>
+                </button>
+                <div class="content" style="display: none">
+                  Guidelines on how to file a Crypto FBAR (Foreign Bank Account
+                  Report).
+                </div>
+              </li>
+              <li class="experiment__li">
+                <button class="experiment__btn" onclick="toggleContent(this)">
+                  The Coinbase 1099-K Explained <span>+</span>
+                </button>
+                <div class="content" style="display: none">
+                  Details about the Coinbase 1099-K form and its purpose.
+                </div>
+              </li>
+              <li class="experiment__li">
+                <button class="experiment__btn" onclick="toggleContent(this)">
+                  Taxes for Mining and Staking <span>+</span>
+                </button>
+                <div class="content" style="display: none">
+                  Explanation of tax implications for mining and staking
+                  activities.
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="experiment__div">
+            <h1 class="experiment__h1">From Our Help Center</h1>
+            <ul class="experiment__ul">
+              <li class="experiment__li">
+                <button class="experiment__btn" onclick="toggleContent(this)">
+                  Cryptocurrency Tax Rates <span>+</span>
+                </button>
+                <div class="content" style="display: none">
+                  Information about cryptocurrency tax rates and regulations.
+                </div>
+              </li>
+              <li class="experiment__li">
+                <button class="experiment__btn" onclick="toggleContent(this)">
+                  How To File a Crypto FBAR <span>+</span>
+                </button>
+                <div class="content" style="display: none">
+                  Guidelines on how to file a Crypto FBAR (Foreign Bank Account
+                  Report).
+                </div>
+              </li>
+              <li class="experiment__li">
+                <button class="experiment__btn" onclick="toggleContent(this)">
+                  The Coinbase 1099-K Explained <span>+</span>
+                </button>
+                <div class="content" style="display: none">
+                  Details about the Coinbase 1099-K form and its purpose.
+                </div>
+              </li>
+              <li class="experiment__li">
+                <button class="experiment__btn" onclick="toggleContent(this)">
+                  Taxes for Mining and Staking <span>+</span>
+                </button>
+                <div class="content" style="display: none">
+                  Explanation of tax implications for mining and staking
+                  activities.
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
 
-    <section class="calculate">
-      <div class="container">
+      <div class="calculate">
         <div class="calculate__content">
           <h3 class="calculate__title">Calculate your crypto taxes now</h3>
           <p class="calculate__paragrath">
             TokenTax does the hard work so you don’t have to.
           </p>
-          <button class="calculate__btn">Get started</button>
+          <div class="calculate__button">
+            <button class="calculate__btn">Get started</button>
+          </div>
         </div>
       </div>
     </section>
