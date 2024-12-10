@@ -466,9 +466,8 @@ header {
 .card__down__img {
   margin-bottom: 150px;
 }
-/*ptalform*/
 
-.platform {
+talform*/ .platform {
   background-color: #ebe7e4;
 }
 
@@ -836,4 +835,46 @@ tr:hover {
 .experiment__div:hover {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   background-color: rgb(224, 224, 224);
+}
+
+/*footer*/
+
+.footer__logo {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer__content {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.footer__text {
+  max-width: 240px;
+  margin-bottom: 42px;
+  font-family: "Sailec Medium";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  color: black;
+}
+
+.footer__incon__items {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+}
+.footer__incon__list {
+  list-style: none;
+}
+
+.footer__content--right {
+  gap: 20px;
+}
+
+.footer__content--right--link {
+  margin-bottom: 20px;
 }
